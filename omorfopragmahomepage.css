@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to top right, #FEFFFC, #e3e3e3);
+    text-align: center;
+  }
+
+  
+  h1 {
+    font-size: 100px;
+    font-family: 'Newsreader', serif;
+    color: #030303;
+  }
+  
+  p {
+    font-family: 'Corben', cursive;
+    color: #030303;
+    font-size: 25px;
+  }
+  a {
+    text-decoration:none;
+    font-family: 'Corben', cursive;
+    color: #0A66C2;
+    font-size: 25px;
+  }
