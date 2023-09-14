@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to top right, #FEFFFC, #e3e3e3);
+    background-attachment: fixed;
     text-align: center;
   }
 
