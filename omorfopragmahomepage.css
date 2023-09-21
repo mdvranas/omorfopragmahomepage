@@ -1,24 +1,92 @@
 body {
-    background: linear-gradient(to top right, #FEFFFC, #e3e3e3);
+    background: linear-gradient(to bottom, #FEFFFC, #ffffff);
     background-attachment: fixed;
     text-align: center;
   }
 
   
-  h1 {
-    font-size: 100px;
-    font-family: 'Newsreader', serif;
-    color: #030303;
-  }
-  
-  p {
-    font-family: 'Corben', cursive;
-    color: #030303;
-    font-size: 25px;
-  }
-  a {
-    text-decoration:none;
-    font-family: 'Corben', cursive;
-    color: #0A66C2;
-    font-size: 25px;
-  }
+h1 {
+  font-size: 6vw;
+  font-family: 'Newsreader', serif;
+  color: #030303;
+}
+
+.text-box{
+  width: 96%;
+  height: 5.5vw;
+  margin-top: 34.5vh;
+  padding-top: 0.5vw;
+  overflow: hidden;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*background-color: blue;*/
+  animation: change 30s linear infinite;
+
+}
+
+.slider{
+  top:2.5vw;
+  left:0vw;
+  text-align: center;
+  animation: mover 30s linear infinite;
+}
+
+.link-block{
+  display: inline;
+}
+
+span{
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  color: #030303;
+  font-size: 3vw;
+  text-align: center;
+}
+
+p {
+
+  font-family: 'Oswald', sans-serif;
+  color: #030303;
+  font-size: 3vw;
+  text-align: center;
+}
+
+a {
+  text-decoration:none;
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  color: #0A66C2;
+  font-size: 3vw;
+  text-align: center;
+}
+
+@keyframes change{
+  0%{ height: 5.5vw;margin-top: 34.5vh;}
+  3.3%{ height: 5.5vw;}
+  5%{ height: 5.5vw;}
+  18.3%{ height: 5.5vw; margin-top: 34.5vh;}
+  20%{ height: 14vw; margin-top: 23.4vh;}
+  48.3%{ height: 14vw; margin-top: 23.4vh;}
+  50%{ height: 10vw;margin-top: 28.5vh;}
+  78.3%{ height: 10vw;margin-top: 28.5vh;}
+  80%{ height: 5.5vw;margin-top: 34.5vh;}
+  93.3%{ height: 5.5vw;}
+  95%{ height: 5.5vw;}
+  98.3%{ height: 5.5vw;}
+  100%{height: 5.5vw;margin-top: 34.5vh;}
+}
+@keyframes mover{
+  0%{ margin-top: -3.5vw;}
+  3.3%{ margin-top: -3.5vw;}
+  5%{ margin-top: -11vw;}
+  18.3%{ margin-top: -11vw;}
+  20%{ margin-top: -19vw;}
+  48.3%{ margin-top: -19vw;}
+  50%{ margin-top: -35vw;}
+  78.3%{ margin-top: -35vw;}
+  80%{ margin-top: -47vw;}
+  93.3%{ margin-top: -47vw;}
+  95%{ margin-top: -54.3vw;}
+  98.3%{ margin-top: -54.3vw;}
+  100%{ margin-top: -3.5vw;}
+}
